@@ -1,0 +1,21 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Catalog;
+
+use Illuminate\Database\Seeder;
+
+class CatalogSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        //
+        Catalog::factory(10)->create();
+    }
+}
